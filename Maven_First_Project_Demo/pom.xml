@@ -3,6 +3,10 @@
   <groupId>First_project</groupId>
   <artifactId>Maven_First_Project_Demo</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+
+    <properties>
+        <build.number>${build.number}</build.number>
+    </properties>
   <dependencies>
   <!-- https://mvnrepository.com/artifact/junit/junit -->
 <dependency>
